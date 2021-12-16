@@ -29,7 +29,8 @@ public class FloatDetail06 {
         //浮点数使用陷阱: 2.7 和 8.1 / 3  比较
         //看看一段代码
         double num11 = 2.7;
-        double num12 = 2.7;	//8.1 / 3; //2.7
+        double num12 = 8.1 / 3; //2.6999999999999997
+        //double num12 = 2.7;	//8.1 / 3; //2.7
         System.out.println(num11);//2.7
         System.out.println(num12);//接近2.7的一个小数，而不是2.7
         //得到一个重要的使用点: 当我们对运算结果是小数的进行相等判断是，要小心
