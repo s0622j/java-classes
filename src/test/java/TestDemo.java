@@ -242,7 +242,26 @@ public class TestDemo {
 
 
 
+    @Test
+    public void Demo13(){
 
+        int[] arr01 = {24,69,80,57,13,66,88,90,34,63,243,888,666,8888};
+        int temp;
+
+        for(int i = 1 ; i < arr01.length ; i++){
+            for (int j = 0 ; j < arr01.length - i ; j++){
+                if(arr01[j] < arr01[j+1]){
+                    temp = arr01[j];
+                    arr01[j] = arr01[j+1];
+                    arr01[j+1] = temp;
+                }
+            }
+        }
+
+        for(int i = 0 ; i < arr01.length ; i++){
+            System.out.print(arr01[i] + "\t");
+        }
+    }
 
 
 
