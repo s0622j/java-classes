@@ -13,10 +13,10 @@ public class Poly01 {
         System.out.println("===========-------");
         tom.feed(cat, fish);
 
-//        //添加 给小猪为米饭
-//        Pig pig = new Pig("小花猪");
-//        Rice rice = new Rice("米饭");
-//        System.out.println("===================");
-//        tom.feed(pig, rice);
+        //添加 给小猪为米饭
+        Pig pig = new Pig("小花猪");
+        Rice rice = new Rice("米饭");
+        System.out.println("===================");
+        tom.feed(pig, rice);
     }
 }
