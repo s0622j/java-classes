@@ -1,4 +1,4 @@
-package hsp.chapter11;
+package hsp.chapter11.enum_01;
 
 /**
  * @author shenjie
