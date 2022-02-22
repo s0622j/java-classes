@@ -2,6 +2,13 @@ public class Test01 {
     public static void main(String[] args) {
 
         CC c = new CC();
+        CC xx1 = c;
+        CC xx2 = c;
+        System.out.println(c);
+        System.out.println(xx1);
+        System.out.println(xx2);
+
+        System.out.println("=================================");
         c.isJ(1);
         System.out.println(c.isJ(2));
 

@@ -267,6 +267,14 @@ public class TestDemo {
         }
     }
 
+    @Test
+    public void D11(){
+        int a = 10;
+        int b = 3;
+        double res = a*1.0 / b;
+        System.out.println(res);
+        System.out.println(10/3);
+    }
 
 
 }
