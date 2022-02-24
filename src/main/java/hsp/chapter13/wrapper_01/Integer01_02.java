@@ -23,6 +23,8 @@ public class Integer01_02 {
         int n2 = 200;
         //自动装箱 int->Integer
         Integer integer2 = n2; //底层使用的是 Integer.valueOf(n2)
+        Integer integer3 = n2; //底层使用的是 Integer.valueOf(n2)
+        System.out.println(integer2 == integer3);
         //自动拆箱 Integer->int
         int n3 = integer2; //底层仍然使用的是 intValue()方法
     }
