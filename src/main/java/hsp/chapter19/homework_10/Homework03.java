@@ -72,6 +72,7 @@ public class Homework03 {
         String serFilePath = "e:\\dog.dat";
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(serFilePath));
         Dog dog = (Dog)ois.readObject();
+        //Object dog = ois.readObject();
 
         System.out.println("===反序列化后 dog====");
         System.out.println(dog);
