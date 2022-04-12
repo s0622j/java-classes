@@ -30,7 +30,7 @@ public class Homework02 {
         } finally {
 
             try {
-                if(br != null) {
+                if (br != null) {
                     br.close();
                 }
             } catch (IOException e) {
@@ -38,9 +38,7 @@ public class Homework02 {
             }
         }
 
-
-
-
+        // 转换流处理编码问题 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "gbk"));
 
 
         /**
