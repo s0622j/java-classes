@@ -11,12 +11,12 @@ INSERT INTO admin VALUES('tom', '123');
 
 SELECT * 
 	FROM admin
-	WHERE NAME = 'tom' AND pwd = '123'
+	WHERE NAME = 'tom' AND pwd = '123';
 	
 -- SQL 
 -- 输入用户名 为  1' or 
 -- 输入万能密码 为 or '1'= '1 
 SELECT * 
 	FROM admin
-	WHERE NAME = '1' OR' AND pwd = 'OR '1'= '1'
+	WHERE NAME = '1' OR' AND pwd = 'OR '1'= '1';
 SELECT * FROM admin

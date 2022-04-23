@@ -1,6 +1,6 @@
 -- temp 的---
 
-CREATE DATABASE temp_mhl
+CREATE DATABASE temp_mhl;
 
 CREATE TABLE employee (
 	id INT PRIMARY KEY AUTO_INCREMENT, #自增
@@ -14,7 +14,7 @@ INSERT INTO employee VALUES(NULL, '6668612', MD5('123456'), '张三丰', '经理
 INSERT INTO employee VALUES(NULL, '6668622', MD5('123456'),'小龙女', '服务员');
 INSERT INTO employee VALUES(NULL, '6668633', MD5('123456'), '张无忌', '收银员');
 INSERT INTO employee VALUES(NULL, '666', MD5('123456'), '老韩', '经理');
-SELECT * FROM employee
+SELECT * FROM employee;
 
 CREATE TABLE diningTable (
 	id INT PRIMARY KEY AUTO_INCREMENT, #自增, 表示餐桌编号
@@ -25,7 +25,7 @@ CREATE TABLE diningTable (
 
 INSERT INTO diningTable VALUES(NULL, '空','','');
 INSERT INTO diningTable VALUES(NULL, '空','','');
-SELECT * FROM diningTable
+SELECT * FROM diningTable;
 
 #菜谱
 CREATE TABLE menu (
@@ -44,7 +44,7 @@ INSERT INTO menu VALUES(NULL, '水煮鱼', '热菜', 26);
 INSERT INTO menu VALUES(NULL, '甲鱼汤', '汤类', 100);
 INSERT INTO menu VALUES(NULL, '鸡蛋汤', '汤类', 16);
 
-SELECT * FROM menu
+SELECT * FROM menu;
 
 CREATE TABLE bill (
 	id INT PRIMARY KEY AUTO_INCREMENT, #自增主键

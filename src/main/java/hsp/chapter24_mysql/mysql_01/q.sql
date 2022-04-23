@@ -1,5 +1,5 @@
 -- 创建测试表 演员表
-
+use hsp_db02;
 CREATE TABLE  actor ( -- 演员表
  id INT PRIMARY KEY AUTO_INCREMENT,
  NAME VARCHAR(32) NOT NULL DEFAULT '',
@@ -7,7 +7,7 @@ CREATE TABLE  actor ( -- 演员表
  borndate DATETIME ,
  phone VARCHAR(12));
  
-SELECT * FROM actor
+SELECT * FROM actor;
 
 -- 增加2条记录，用于测试ResultSet
 INSERT INTO actor 
@@ -22,10 +22,10 @@ CREATE TABLE  ACCOUNT(
 insert into account values(null, '马云', 3000); 
 insert into account values(null, '马化腾', 10000);
 
-select * from goods
+select * from goods;
 desc goods;
 
-select * from account
+select * from account;
 
 -- 创建测试表
 create table admin2
@@ -33,9 +33,9 @@ create table admin2
 username varchar(32) not null , 
 password varchar(32) not null);
 
-select count(*) from admin2
+select count(*) from admin2;
 
-drop table admin2
+drop table admin2;
 
 
 
