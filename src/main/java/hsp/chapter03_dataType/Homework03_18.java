@@ -1,4 +1,4 @@
-package hsp.chapter03;
+package hsp.chapter03_dataType;
 
 public class Homework03_18 {
     //编写一个main方法

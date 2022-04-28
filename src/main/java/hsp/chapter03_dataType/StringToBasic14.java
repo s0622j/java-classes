@@ -1,4 +1,4 @@
-package hsp.chapter03;
+package hsp.chapter03_dataType;
 
 public class StringToBasic14 {
     //编写一个main方法

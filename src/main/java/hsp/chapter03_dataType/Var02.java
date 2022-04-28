@@ -1,4 +1,4 @@
-package hsp.chapter03;
+package hsp.chapter03_dataType;
 
 public class Var02 {
     //编写一个main方法
