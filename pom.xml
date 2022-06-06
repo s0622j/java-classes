@@ -8,6 +8,11 @@
     <artifactId>java-classes</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <!-- 解决[WARNING] Using platform encoding (GBK actually) -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <!-- junit -->
         <dependency>
@@ -61,8 +66,11 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+                    <!-- 指明编译源代码时使用的字符编码，maven编译的时候默认使用的GBK编码， 通过encoding属性设置字符编码，告诉maven这个项目使用UTF-8来编译 -->
+                    <encoding>utf8</encoding>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

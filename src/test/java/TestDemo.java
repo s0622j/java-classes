@@ -220,7 +220,7 @@ public class TestDemo {
         }
 
 
-        System.out.println("=====================");
+        System.out.println("==========分割线===========");
         for(int i = 0 ; i < arr1.length ; i++){
             System.out.println(arr1[i] + "\t");
         }
